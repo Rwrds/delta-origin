@@ -458,7 +458,7 @@
           <p class="list-price">List Price: {{ price_6 | money }}</p>
           <p class="our-price">Our Price: {{ final_price_6 | money }}</p>
           <p class="save-text">Save 4%!</p>
-          <form method="post" action="/cart/add">
+          <form method="post" action="{{ routes.cart_add_url }}">
             <input type="hidden" name="id" value="{{ product.variants.first.id }}">
             <input type="hidden" name="quantity" value="6">
             <button type="submit">Buy Now</button>
@@ -471,7 +471,7 @@
           <p class="list-price">List Price: {{ price_12 | money }}</p>
           <p class="our-price">Our Price: {{ final_price_12 | money }}</p>
           <p class="save-text">Save 10%!</p>
-          <form method="post" action="/cart/add">
+          <form method="post" action="{{ routes.cart_add_url }}">
             <input type="hidden" name="id" value="{{ product.variants.first.id }}">
             <input type="hidden" name="quantity" value="12">
             <button type="submit">Buy Now</button>
