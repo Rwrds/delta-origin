@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -37,6 +46,12 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "discountify_discount_code_y8BDbz": {
+          "type": "shopify://apps/discountify/blocks/discount_code/f60530e4-1a7f-4b03-a3e2-5b53c222553d",
+          "settings": {
+            "wholesaleTitle": "Buy more, save more!"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -59,6 +74,7 @@
         "description",
         "variant_picker",
         "quantity_selector",
+        "discountify_discount_code_y8BDbz",
         "buy_buttons",
         "share"
       ],
