@@ -385,7 +385,6 @@
 
   {% if is_in_deal_of_the_day == false and is_in_rare_bourbon == false %}
     {% unless product.tags contains "Instore" or product.product_type == "Allocation Bourbon" %}
-
       {% assign unit_price = product.variants.first.price | money_without_currency | replace: ',', '' | plus: 0 %}
       {% assign price_6 = unit_price | times: 6 %}
       {% assign discount_6 = price_6 | times: 0.04 %}
@@ -396,54 +395,60 @@
       {% assign final_price_12 = price_12 | minus: discount_12 %}
 
       <style>
-        .discount-cards-container {
+        .discountify--discount-cards-container {
           display: flex;
           flex-wrap: wrap;
           gap: 1.5rem;
           margin-top: 15px;
           margin-bottom: 15px;
-        }
-        .discount-card {
-          flex: 1 1 45%;
-          padding: 20px;
-          text-align: center;
-          background: #dcdcdc;
-        }
-        .discount-card h3 {
-          color: #7c1515;
-        }
-        .discount-card .list-price {
-          text-decoration: line-through;
-          color: #ff0000;
-        }
-        .discount-card .our-price {
-          color: #222;
-        }
-        .discount-card .save-text {
-          color: #1a7e1a;
-          margin: 5px 0 10px;
-        }
-        .discount-card button {
-          background-color: #a21e1e;
-          color: white;
-          border: none;
-          padding: 10px 20px;
-          font-weight: 600;
-          width: 100%;
-          cursor: pointer;
-          transition: background 0.2s ease;
-        }
-        .discount-card button:hover {
-          background-color: #7c1515;
-        }
-        @media(max-width: 768px) {
-          .discount-card { flex: 1 1 100%; }
+
+          .discount-card {
+            flex: 1 1 45%;
+            padding: 20px;
+            text-align: center;
+            background: #dcdcdc;
+          }
+
+          .discount-card h3 {
+            color: #7c1515;
+          }
+
+          .discount-card .list-price {
+            text-decoration: line-through;
+            color: #ff0000;
+          }
+
+          .discount-card .our-price {
+            color: #222;
+          }
+
+          .discount-card .save-text {
+            color: #1a7e1a;
+            margin: 5px 0 10px;
+          }
+
+          .discount-card button {
+            background-color: #a21e1e;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-weight: 600;
+            width: 100%;
+            cursor: pointer;
+            transition: background 0.2s ease;
+          }
+
+          .discount-card button:hover {
+            background-color: #7c1515;
+          }
+
+          @media(max-width: 768px) {
+            .discount-card { flex: 1 1 100%; }
+          }
         }
       </style>
 
-      <div class="discount-cards-container">
-
-        <!-- Card 1: Buy 6 Bottles -->
+      <div class="discountify--discount-cards-container">
         <div class="discount-card">
           <h3>Buy 6 Bottles</h3>
           <p class="list-price">List Price: {{ price_6 | money }}</p>
@@ -456,7 +461,6 @@
           </form>
         </div>
 
-        <!-- Card 2: Buy 12 Bottles -->
         <div class="discount-card">
           <h3>Buy 12 Bottles</h3>
           <p class="list-price">List Price: {{ price_12 | money }}</p>
@@ -468,9 +472,7 @@
             <button type="submit">Buy Now</button>
           </form>
         </div>
-
       </div>
-
     {% endunless %}
   {% endif %}
 {% comment %} end discountify {% endcomment %}
