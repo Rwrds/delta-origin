@@ -372,6 +372,17 @@
                   </div>
 
 {% comment %} discountify {% endcomment %}
+  {% assign is_in_deal_of_the_day = false %}
+  {% assign is_in_rare_bourbon = false %}
+
+  {% for collection in product.collections %}
+    {% if collection.title == 'Deal Of the Month' %}
+      {% assign is_in_deal_of_the_day = true %}
+    {% elsif collection.title == 'Rare Bourbon' %}
+      {% assign is_in_rare_bourbon = true %}
+    {% endif %}
+  {% endfor %}
+
   {% if is_in_deal_of_the_day == false and is_in_rare_bourbon == false %}
     {% unless product.tags contains "Instore" or product.product_type == "Allocation Bourbon" %}
 
