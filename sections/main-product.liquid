@@ -388,11 +388,11 @@
 
       {% assign unit_price = product.variants.first.price | money_without_currency | replace: ',', '' | plus: 0 %}
       {% assign price_6 = unit_price | times: 6 %}
-      {% assign discount_6 = price_6 | times: 0.10 %}
+      {% assign discount_6 = price_6 | times: 0.04 %}
       {% assign final_price_6 = price_6 | minus: discount_6 %}
 
       {% assign price_12 = unit_price | times: 12 %}
-      {% assign discount_12 = price_12 | times: 0.15 %}
+      {% assign discount_12 = price_12 | times: 0.10 %}
       {% assign final_price_12 = price_12 | minus: discount_12 %}
 
       <style>
@@ -468,7 +468,7 @@
           <h3>Buy 6 Bottles</h3>
           <p class="list-price">List Price: {{ price_6 | money }}</p>
           <p class="our-price">Our Price: {{ final_price_6 | money }}</p>
-          <p class="save-text">Save 10%!</p>
+          <p class="save-text">Save 4%!</p>
           <img src="{{ product.featured_image | img_url: '300x300' }}" alt="{{ product.title }}">
           <form method="post" action="/cart/add">
             <input type="hidden" name="id" value="{{ product.variants.first.id }}">
@@ -482,7 +482,7 @@
           <h3>Buy 12 Bottles</h3>
           <p class="list-price">List Price: {{ price_12 | money }}</p>
           <p class="our-price">Our Price: {{ final_price_12 | money }}</p>
-          <p class="save-text">Save 15%!</p>
+          <p class="save-text">Save 10%!</p>
           <img src="{{ product.featured_image | img_url: '300x300' }}" alt="{{ product.title }}">
           <form method="post" action="/cart/add">
             <input type="hidden" name="id" value="{{ product.variants.first.id }}">
