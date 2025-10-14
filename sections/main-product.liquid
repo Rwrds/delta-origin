@@ -447,7 +447,7 @@
           <h3>Buy 6 Bottles</h3>
           <p class="list-price">List Price: {{ price_6 | money }}</p>
           <p class="our-price">Our Price: {{ final_price_6 | money }}</p>
-          <p class="save-text">Save 4%!</p>
+          <p class="save-text">Save {{ price_6 | minus: final_price_6 | money }}!</p>
           <form method="post" action="{{ routes.cart_add_url }}">
             <input type="hidden" name="id" value="{{ product.variants.first.id }}">
             <input type="hidden" name="quantity" value="6">
