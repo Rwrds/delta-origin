@@ -454,9 +454,9 @@
       <div class="discountify--discount-cards-container">
         <div class="discount-card">
           <h3>Buy 6 Bottles</h3>
-          <p class="list-price">List Price: {{ price_6 | money }}</p>
-          <p class="our-price">Our Price: {{ final_price_6 | money }}</p>
-          <p class="save-text">Save {{ price_6 | minus: final_price_6 | money }}!</p>
+          <p id="list-price-6" class="list-price">List Price: {{ price_6 | money }}</p>
+          <p id="our-price-6" class="our-price">Our Price: {{ final_price_6 | money }}</p>
+          <p id="save-text-6" class="save-text">Save {{ price_6 | minus: final_price_6 | money }}!</p>
           <form method="post" action="{{ routes.cart_add_url }}">
             <input type="hidden" name="id" value="{{ product.variants.first.id }}">
             <input type="hidden" name="quantity" value="6">
@@ -466,9 +466,9 @@
 
         <div class="discount-card">
           <h3>Buy 12 Bottles</h3>
-          <p class="list-price">List Price: {{ price_12 | money }}</p>
-          <p class="our-price">Our Price: {{ final_price_12 | money }}</p>
-          <p class="save-text">Save {{ price_12 | minus: final_price_12 | money }}!</p>
+          <p id="list-price-12" class="list-price">List Price: {{ price_12 | money }}</p>
+          <p id="our-price-12" class="our-price">Our Price: {{ final_price_12 | money }}</p>
+          <p id="save-text-12" class="save-text">Save {{ price_12 | minus: final_price_12 | money }}!</p>
           <form method="post" action="{{ routes.cart_add_url }}">
             <input type="hidden" name="id" value="{{ product.variants.first.id }}">
             <input type="hidden" name="quantity" value="12">
@@ -478,6 +478,48 @@
       </div>
     {% endunless %}
   {% endif %}
+
+
+
+  <script>
+    setInterval(function() {
+      var url = window.location.href;
+
+      if (url.indexOf("variant=") > 0) {
+        var variantId = url.split('variant=')[1];
+
+        // Get variant price from hidden input or JSON data
+        var variantPrice = $("#variant-" + variantId).val();
+        if (!variantPrice) return;
+
+        variantPrice = variantPrice / 100; // Convert to currency
+
+        // --- Calculate 6 bottle deal ---
+        var price6 = variantPrice * 6;
+        var finalPrice6 = price6 * 0.96; // 4% off
+        var save6 = price6 - finalPrice6;
+
+        // --- Calculate 12 bottle deal ---
+        var price12 = variantPrice * 12;
+        var finalPrice12 = price12 * 0.9; // 10% off
+        var save12 = price12 - finalPrice12;
+
+        // Format with commas and 2 decimals
+        function formatPrice(val) {
+          return val.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        }
+
+        // --- Update HTML ---
+        $("#list-price-6").html("£" + formatPrice(price6));
+        $("#our-price-6").html("£" + formatPrice(finalPrice6));
+        $("#save-text-6").html("Save £" + formatPrice(save6) + "!");
+
+        $("#list-price-12").html("£" + formatPrice(price12));
+        $("#our-price-12").html("£" + formatPrice(finalPrice12));
+        $("#save-text-12").html("Save £" + formatPrice(save12) + "!");
+      }
+    }, 500);
+  </script>
 {% comment %} end discountify {% endcomment %}
 
 
