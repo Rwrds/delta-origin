@@ -489,10 +489,10 @@
         var variantId = url.split('variant=')[1];
 
         // Get variant price from hidden input or JSON data
-        var variantPrice = $("#variant-" + variantId).val();
-        if (!variantPrice) return;
+        var variantInput = document.getElementById("variant-" + variantId);
+        if (!variantInput) return;
 
-        variantPrice = variantPrice / 100; // Convert to currency
+        var variantPrice = parseFloat(variantInput.value) / 100; // Convert cents to pounds
 
         // --- Calculate 6 bottle deal ---
         var price6 = variantPrice * 6;
@@ -510,16 +510,25 @@
         }
 
         // --- Update HTML ---
-        $("#list-price-6").html("£" + formatPrice(price6));
-        $("#our-price-6").html("£" + formatPrice(finalPrice6));
-        $("#save-text-6").html("Save £" + formatPrice(save6) + "!");
+        var list6 = document.getElementById("list-price-6");
+        var our6 = document.getElementById("our-price-6");
+        var save6El = document.getElementById("save-text-6");
 
-        $("#list-price-12").html("£" + formatPrice(price12));
-        $("#our-price-12").html("£" + formatPrice(finalPrice12));
-        $("#save-text-12").html("Save £" + formatPrice(save12) + "!");
+        var list12 = document.getElementById("list-price-12");
+        var our12 = document.getElementById("our-price-12");
+        var save12El = document.getElementById("save-text-12");
+
+        if (list6) list6.textContent = "£" + formatPrice(price6);
+        if (our6) our6.textContent = "£" + formatPrice(finalPrice6);
+        if (save6El) save6El.textContent = "Save £" + formatPrice(save6) + "!";
+
+        if (list12) list12.textContent = "£" + formatPrice(price12);
+        if (our12) our12.textContent = "£" + formatPrice(finalPrice12);
+        if (save12El) save12El.textContent = "Save £" + formatPrice(save12) + "!";
       }
     }, 500);
   </script>
+
 {% comment %} end discountify {% endcomment %}
 
 
