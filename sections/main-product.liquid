@@ -370,7 +370,126 @@
                       </price-per-item>
                     {%- endif -%}
                   </div>
-                  <p>11111111111111111111111111111111</p>
+
+{% comment %} discountify {% endcomment %}
+  {% if is_in_deal_of_the_day == false and is_in_rare_bourbon == false %}
+    {% unless product.tags contains "Instore" or product.product_type == "Allocation Bourbon" %}
+
+      {% assign unit_price = product.variants.first.price | money_without_currency | replace: ',', '' | plus: 0 %}
+      {% assign price_6 = unit_price | times: 6 %}
+      {% assign discount_6 = price_6 | times: 0.10 %}
+      {% assign final_price_6 = price_6 | minus: discount_6 %}
+
+      {% assign price_12 = unit_price | times: 12 %}
+      {% assign discount_12 = price_12 | times: 0.15 %}
+      {% assign final_price_12 = price_12 | minus: discount_12 %}
+
+      <style>
+        .discount-cards-container {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1.5rem;
+          margin-top: 15px;
+          margin-bottom: 20px;
+        }
+        .discount-card {
+          flex: 1 1 45%;
+          border: 1px solid #ddd;
+          border-radius: 10px;
+          padding: 20px;
+          text-align: center;
+          background: #fff;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+          transition: all 0.3s ease;
+        }
+        .discount-card:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .discount-card img {
+          width: 120px;
+          height: auto;
+          margin-bottom: 10px;
+        }
+        .discount-card h3 {
+          margin-bottom: 8px;
+          font-size: 1.1rem;
+          font-weight: 600;
+          color: #111;
+        }
+        .discount-card .list-price {
+          text-decoration: line-through;
+          color: #888;
+          font-size: 0.95rem;
+        }
+        .discount-card .our-price {
+          font-size: 1.2rem;
+          font-weight: 700;
+          color: #222;
+        }
+        .discount-card .save-text {
+          color: #1a7e1a;
+          font-weight: 600;
+          margin: 5px 0 10px;
+        }
+        .discount-card button {
+          background-color: #a21e1e;
+          color: white;
+          border: none;
+          border-radius: 6px;
+          padding: 10px 20px;
+          font-weight: 600;
+          cursor: pointer;
+          transition: background 0.2s ease;
+        }
+        .discount-card button:hover {
+          background-color: #7c1515;
+        }
+        @media(max-width: 768px) {
+          .discount-card { flex: 1 1 100%; }
+        }
+      </style>
+
+      <div class="discount-cards-container">
+
+        <!-- Card 1: Buy 6 Bottles -->
+        <div class="discount-card">
+          <h3>Buy 6 Bottles</h3>
+          <p class="list-price">List Price: {{ price_6 | money }}</p>
+          <p class="our-price">Our Price: {{ final_price_6 | money }}</p>
+          <p class="save-text">Save 10%!</p>
+          <img src="{{ product.featured_image | img_url: '300x300' }}" alt="{{ product.title }}">
+          <form method="post" action="/cart/add">
+            <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+            <input type="hidden" name="quantity" value="6">
+            <button type="submit">Buy Now</button>
+          </form>
+        </div>
+
+        <!-- Card 2: Buy 12 Bottles -->
+        <div class="discount-card">
+          <h3>Buy 12 Bottles</h3>
+          <p class="list-price">List Price: {{ price_12 | money }}</p>
+          <p class="our-price">Our Price: {{ final_price_12 | money }}</p>
+          <p class="save-text">Save 15%!</p>
+          <img src="{{ product.featured_image | img_url: '300x300' }}" alt="{{ product.title }}">
+          <form method="post" action="/cart/add">
+            <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+            <input type="hidden" name="quantity" value="12">
+            <button type="submit">Buy Now</button>
+          </form>
+        </div>
+
+      </div>
+
+    {% endunless %}
+  {% endif %}
+{% comment %} end discountify {% endcomment %}
+
+
+
+
+
                   <div class="quantity__rules caption" id="Quantity-Rules-{{ section.id }}">
                     {%- if product.selected_or_first_available_variant.quantity_rule.increment > 1 -%}
                       <span class="divider">
