@@ -417,11 +417,6 @@
           transform: translateY(-3px);
           box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         }
-        .discount-card img {
-          width: 120px;
-          height: auto;
-          margin-bottom: 10px;
-        }
         .discount-card h3 {
           margin-bottom: 8px;
           font-size: 1.1rem;
@@ -469,7 +464,6 @@
           <p class="list-price">List Price: {{ price_6 | money }}</p>
           <p class="our-price">Our Price: {{ final_price_6 | money }}</p>
           <p class="save-text">Save 4%!</p>
-          <img src="{{ product.featured_image | img_url: '300x300' }}" alt="{{ product.title }}">
           <form method="post" action="/cart/add">
             <input type="hidden" name="id" value="{{ product.variants.first.id }}">
             <input type="hidden" name="quantity" value="6">
@@ -483,7 +477,6 @@
           <p class="list-price">List Price: {{ price_12 | money }}</p>
           <p class="our-price">Our Price: {{ final_price_12 | money }}</p>
           <p class="save-text">Save 10%!</p>
-          <img src="{{ product.featured_image | img_url: '300x300' }}" alt="{{ product.title }}">
           <form method="post" action="/cart/add">
             <input type="hidden" name="id" value="{{ product.variants.first.id }}">
             <input type="hidden" name="quantity" value="12">
