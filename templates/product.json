@@ -46,6 +46,10 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "discountify_wholesale_request_3GRnUa": {
+          "type": "shopify://apps/discountify/blocks/wholesale_request/f60530e4-1a7f-4b03-a3e2-5b53c222553d",
+          "settings": {}
+        },
         "discountify_discount_code_y8BDbz": {
           "type": "shopify://apps/discountify/blocks/discount_code/f60530e4-1a7f-4b03-a3e2-5b53c222553d",
           "settings": {
@@ -74,6 +78,7 @@
         "description",
         "variant_picker",
         "quantity_selector",
+        "discountify_wholesale_request_3GRnUa",
         "discountify_discount_code_y8BDbz",
         "buy_buttons",
         "share"
