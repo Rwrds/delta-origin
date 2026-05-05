@@ -72,6 +72,10 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "faq_expert_dev_faq_expert_M8qc8a": {
+          "type": "shopify://apps/faq-expert-dev/blocks/faq_expert/019df784-eb8a-739f-9335-acd34992cfba",
+          "settings": {}
         }
       },
       "block_order": [
@@ -86,7 +90,8 @@
         "discountify_wholesale_request_BUEYzx",
         "discountify_discount_code_A46iWG",
         "discountify_tiered_spend_TJqwUC",
-        "share"
+        "share",
+        "faq_expert_dev_faq_expert_M8qc8a"
       ],
       "settings": {
         "enable_sticky_info": true,
