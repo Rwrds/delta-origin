@@ -144,6 +144,10 @@
     "177875177328402db5": {
       "type": "_blocks",
       "blocks": {
+        "faq_expert_dev_faq_expert_rRJmCQ": {
+          "type": "shopify://apps/faq-expert-dev/blocks/faq_expert/019e25cb-48a5-7874-bb15-90125c293bdf",
+          "settings": {}
+        },
         "ai_gen_block_35cb162_eewfBb": {
           "type": "ai_gen_block_35cb162",
           "settings": {
@@ -183,6 +187,7 @@
         }
       },
       "block_order": [
+        "faq_expert_dev_faq_expert_rRJmCQ",
         "ai_gen_block_35cb162_eewfBb"
       ],
       "settings": {}
