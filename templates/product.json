@@ -184,6 +184,7 @@
       "blocks": {
         "faq_expert_dev_faq_expert_zYYiYi": {
           "type": "shopify://apps/faq-expert-dev/blocks/faq_expert/019e25cb-48a5-7874-bb15-90125c293bdf",
+          "disabled": true,
           "settings": {}
         }
       },
