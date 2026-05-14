@@ -175,6 +175,11 @@
           "contentButtonRadius": 4,
           "learn_more_link": "https://commission.europa.eu/law/law-topic/data-protection/legal-framework-eu-data-protection_en"
         }
+      },
+      "14646224246950998560": {
+        "type": "shopify://apps/faq-expert-dev/blocks/faq_embed/019e25cb-48a5-7874-bb15-90125c293bdf",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
