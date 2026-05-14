@@ -125,16 +125,16 @@
         "padding_bottom": 28
       }
     },
-    "1778750878c10f6bf8": {
+    "17787509035f1e858c": {
       "type": "apps",
       "blocks": {
-        "faq_expert_dev_page_faq_xMytAK": {
-          "type": "shopify://apps/faq-expert-dev/blocks/page_faq/019e25cb-48a5-7874-bb15-90125c293bdf",
+        "faq_expert_dev_faq_expert_zYYiYi": {
+          "type": "shopify://apps/faq-expert-dev/blocks/faq_expert/019e25cb-48a5-7874-bb15-90125c293bdf",
           "settings": {}
         }
       },
       "block_order": [
-        "faq_expert_dev_page_faq_xMytAK"
+        "faq_expert_dev_faq_expert_zYYiYi"
       ],
       "settings": {
         "include_margins": true
@@ -144,6 +144,6 @@
   "order": [
     "main",
     "related-products",
-    "1778750878c10f6bf8"
+    "17787509035f1e858c"
   ]
 }
