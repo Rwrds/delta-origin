@@ -128,13 +128,13 @@
     "17787509035f1e858c": {
       "type": "apps",
       "blocks": {
-        "faq_expert_dev_faq_expert_zYYiYi": {
-          "type": "shopify://apps/faq-expert-dev/blocks/faq_expert/019e25cb-48a5-7874-bb15-90125c293bdf",
+        "faq_expert_dev_faq_expert_GCYLXM": {
+          "type": "shopify://apps/faq-expert-dev/blocks/faq_expert/019e29fa-4472-74fa-9a51-449d2e5d498f",
           "settings": {}
         }
       },
       "block_order": [
-        "faq_expert_dev_faq_expert_zYYiYi"
+        "faq_expert_dev_faq_expert_GCYLXM"
       ],
       "settings": {
         "include_margins": true
