@@ -178,7 +178,7 @@
       },
       "5501563274568283670": {
         "type": "shopify://apps/faq-expert-dev/blocks/faq_embed/019e29fa-4472-74fa-9a51-449d2e5d498f",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       }
     },
