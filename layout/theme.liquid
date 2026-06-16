@@ -296,6 +296,12 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+
+    <script src="https://unpkg.com/@hotwired/turbo@8.0.5/dist/turbo.es2017-umd.js"></script>
+    <script>
+      // Ensure it is bound globally for your mobile native app wrapper
+      window.Turbo = Turbo;
+    </script>
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
