@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -16,10 +25,26 @@
         "padding_top": 36,
         "padding_bottom": 68
       }
+    },
+    "17828123181e9719e6": {
+      "type": "apps",
+      "blocks": {
+        "faq_expert_dev_page_faq_DMNyzT": {
+          "type": "shopify://apps/faq-expert-dev/blocks/page_faq/019f1758-53f1-7a45-81be-3b976d04cd43",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "faq_expert_dev_page_faq_DMNyzT"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "contact-form"
+    "contact-form",
+    "17828123181e9719e6"
   ]
 }
