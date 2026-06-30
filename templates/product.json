@@ -183,12 +183,28 @@
         "ai_gen_block_35cb162_eewfBb"
       ],
       "settings": {}
+    },
+    "17827963944f9ee575": {
+      "type": "apps",
+      "blocks": {
+        "faq_expert_dev_faq_expert_LYtRB4": {
+          "type": "shopify://apps/faq-expert-dev/blocks/faq_expert/019f16ef-fabd-72ff-aa7f-d82389a14ec6",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "faq_expert_dev_faq_expert_LYtRB4"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "related-products",
     "17787509035f1e858c",
-    "177875177328402db5"
+    "177875177328402db5",
+    "17827963944f9ee575"
   ]
 }
