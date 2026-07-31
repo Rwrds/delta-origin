@@ -137,13 +137,16 @@
     "1785497049b7e5cf7b": {
       "type": "apps",
       "blocks": {
-        "ai_product_bundle_builder_page_bundle_A8W7Md": {
-          "type": "shopify://apps/ai-product-bundle-builder/blocks/page_bundle/889077c6-270f-4a8f-99af-5c8dcf42ef52",
-          "settings": {}
+        "bundle_build_your_box_9FwEUG": {
+          "type": "shopify://apps/bundle/blocks/build_your_box/019fb33c-f1bb-748f-913b-431298b097dc",
+          "settings": {
+            "box_title": "Your Custom Box",
+            "components_collection": ""
+          }
         }
       },
       "block_order": [
-        "ai_product_bundle_builder_page_bundle_A8W7Md"
+        "bundle_build_your_box_9FwEUG"
       ],
       "settings": {
         "include_margins": true
