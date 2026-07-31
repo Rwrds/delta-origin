@@ -193,12 +193,19 @@
     "17828108533998bfc8": {
       "type": "apps",
       "blocks": {
+        "bundle_custom_bundle_WDVNKk": {
+          "type": "shopify://apps/bundle/blocks/custom_bundle/019fb33c-f1bb-748f-913b-431298b097dc",
+          "settings": {
+            "linktext": "Custom Bundle"
+          }
+        },
         "faq_expert_dev_faq_expert_rYNREB": {
           "type": "shopify://apps/faq-expert-dev/blocks/faq_expert/019f1758-53f1-7a45-81be-3b976d04cd43",
           "settings": {}
         }
       },
       "block_order": [
+        "bundle_custom_bundle_WDVNKk",
         "faq_expert_dev_faq_expert_rYNREB"
       ],
       "settings": {
