@@ -1,0 +1,224 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "body"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "discountify_wholesale_request_BUEYzx": {
+          "type": "shopify://apps/discountify/blocks/wholesale_request/f60530e4-1a7f-4b03-a3e2-5b53c222553d",
+          "disabled": true,
+          "settings": {}
+        },
+        "discountify_discount_code_A46iWG": {
+          "type": "shopify://apps/discountify/blocks/discount_code/f60530e4-1a7f-4b03-a3e2-5b53c222553d",
+          "disabled": true,
+          "settings": {
+            "wholesaleTitle": "Buy more, save more!"
+          }
+        },
+        "discountify_tiered_spend_TJqwUC": {
+          "type": "shopify://apps/discountify/blocks/tiered_spend/f60530e4-1a7f-4b03-a3e2-5b53c222553d",
+          "disabled": true,
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "ai_product_bundle_builder_custom_bundle_9jf99F": {
+          "type": "shopify://apps/ai-product-bundle-builder/blocks/custom_bundle/889077c6-270f-4a8f-99af-5c8dcf42ef52",
+          "settings": {
+            "linktext": "Custom Bundle"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "title",
+        "price",
+        "rating",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "discountify_wholesale_request_BUEYzx",
+        "discountify_discount_code_A46iWG",
+        "discountify_tiered_spend_TJqwUC",
+        "share",
+        "ai_product_bundle_builder_custom_bundle_9jf99F"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 52,
+        "padding_bottom": 24
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "17787509035f1e858c": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "177875177328402db5": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_35cb162_eewfBb": {
+          "type": "ai_gen_block_35cb162",
+          "settings": {
+            "desktop_width_percent": 55,
+            "background_color": "rgba(0,0,0,0)",
+            "container_padding": 24,
+            "border_radius": 0,
+            "tab_text_color": "#666666",
+            "tab_active_color": "#11151c",
+            "tab_border_color": "#e0e0e0",
+            "tab_border_thickness": 1,
+            "active_indicator_height": 3,
+            "tab_font_size": 16,
+            "tab_padding": 16,
+            "tab_gap": 16,
+            "content_text_color": "#11151c",
+            "content_font_size": 14,
+            "content_spacing": 20,
+            "tab_1_enabled": true,
+            "tab_1_title": "Description",
+            "tab_1_content": "",
+            "tab_1_metafield": "",
+            "tab_2_enabled": true,
+            "tab_2_title": "Specifications",
+            "tab_2_content": "",
+            "tab_2_metafield": "",
+            "tab_3_enabled": true,
+            "tab_3_title": "FAQ",
+            "tab_3_content": "<div id=\"faqExpertProductEmbed\"></div>",
+            "tab_3_metafield": "",
+            "tab_4_enabled": false,
+            "tab_4_title": "Reviews",
+            "tab_4_content": "",
+            "tab_4_metafield": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_35cb162_eewfBb"
+      ],
+      "settings": {}
+    },
+    "17827963944f9ee575": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "17828108533998bfc8": {
+      "type": "apps",
+      "blocks": {
+        "bundle_custom_bundle_WDVNKk": {
+          "type": "shopify://apps/bundle/blocks/custom_bundle/019fb33c-f1bb-748f-913b-431298b097dc",
+          "settings": {
+            "linktext": "Custom Bundle"
+          }
+        },
+        "faq_expert_dev_faq_expert_rYNREB": {
+          "type": "shopify://apps/faq-expert-dev/blocks/faq_expert/019f1758-53f1-7a45-81be-3b976d04cd43",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "bundle_custom_bundle_WDVNKk",
+        "faq_expert_dev_faq_expert_rYNREB"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "17787509035f1e858c",
+    "177875177328402db5",
+    "17827963944f9ee575",
+    "17828108533998bfc8"
+  ]
+}
