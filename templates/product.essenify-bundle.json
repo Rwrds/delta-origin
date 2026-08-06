@@ -98,6 +98,7 @@
         "share",
         "ai_product_bundle_builder_custom_bundle_9jf99F"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
@@ -116,6 +117,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -134,6 +136,7 @@
     },
     "17787509035f1e858c": {
       "type": "apps",
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
@@ -182,10 +185,12 @@
       "block_order": [
         "ai_gen_block_35cb162_eewfBb"
       ],
+      "disabled": true,
       "settings": {}
     },
     "17827963944f9ee575": {
       "type": "apps",
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
@@ -208,6 +213,7 @@
         "bundle_custom_bundle_WDVNKk",
         "faq_expert_dev_faq_expert_rYNREB"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
