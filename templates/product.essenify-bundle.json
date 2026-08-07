@@ -221,9 +221,11 @@
     "17860148495793fdc1": {
       "type": "apps",
       "blocks": {
-        "bundle_mix_and_match_rWQwwp": {
+        "bundle_mix_and_match_QWX9DJ": {
           "type": "shopify://apps/bundle/blocks/mix_and_match/019fb33c-f1bb-748f-913b-431298b097dc",
           "settings": {
+            "margin_top_bottom": 20,
+            "margin_left_right": 20,
             "text_color": "#FFFFFF",
             "bg_color": "#855832",
             "empty_progress_color": "#F9F6F0",
@@ -235,7 +237,7 @@
         }
       },
       "block_order": [
-        "bundle_mix_and_match_rWQwwp"
+        "bundle_mix_and_match_QWX9DJ"
       ],
       "settings": {
         "include_margins": true
