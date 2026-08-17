@@ -81,6 +81,10 @@
           "settings": {
             "linktext": "Custom Bundle"
           }
+        },
+        "bundle_dev_buy_together_6fr6rU": {
+          "type": "shopify://apps/bundle-dev/blocks/buy_together/019fb33c-f1bb-748f-913b-431298b097dc",
+          "settings": {}
         }
       },
       "block_order": [
@@ -96,7 +100,8 @@
         "discountify_discount_code_A46iWG",
         "discountify_tiered_spend_TJqwUC",
         "share",
-        "ai_product_bundle_builder_custom_bundle_9jf99F"
+        "ai_product_bundle_builder_custom_bundle_9jf99F",
+        "bundle_dev_buy_together_6fr6rU"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -194,7 +199,7 @@
       "type": "apps",
       "blocks": {
         "bundle_custom_bundle_WDVNKk": {
-          "type": "shopify://apps/bundle/blocks/custom_bundle/019fb33c-f1bb-748f-913b-431298b097dc",
+          "type": "shopify://apps/bundle-dev/blocks/custom_bundle/019fb33c-f1bb-748f-913b-431298b097dc",
           "settings": {
             "linktext": "Custom Bundle"
           }
