@@ -62,15 +62,6 @@
     },
     "17754520016ebe940d": {
       "type": "apps",
-      "blocks": {
-        "bundle_dev_page_bundle_hqNiz7": {
-          "type": "shopify://apps/bundle-dev/blocks/page_bundle/019fb33c-f1bb-748f-913b-431298b097dc",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "bundle_dev_page_bundle_hqNiz7"
-      ],
       "settings": {
         "include_margins": true
       }
