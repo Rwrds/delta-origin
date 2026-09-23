@@ -160,6 +160,15 @@
     },
     "17828108533998bfc8": {
       "type": "apps",
+      "blocks": {
+        "faq_expert_page_faq_Q9de4r": {
+          "type": "shopify://apps/faq-expert/blocks/page_faq/0bdfce9a-7a06-4682-aff6-90ae73b63994",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "faq_expert_page_faq_Q9de4r"
+      ],
       "settings": {
         "include_margins": true
       }
