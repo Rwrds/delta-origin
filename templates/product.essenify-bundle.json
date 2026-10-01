@@ -54,19 +54,19 @@
           }
         },
         "discountify_wholesale_request_BUEYzx": {
-          "type": "shopify://apps/discountify/blocks/wholesale_request/f60530e4-1a7f-4b03-a3e2-5b53c222553d",
+          "type": "shopify://apps/discountify-dev/blocks/wholesale_request/f60530e4-1a7f-4b03-a3e2-5b53c222553d",
           "disabled": true,
           "settings": {}
         },
         "discountify_discount_code_A46iWG": {
-          "type": "shopify://apps/discountify/blocks/discount_code/f60530e4-1a7f-4b03-a3e2-5b53c222553d",
+          "type": "shopify://apps/discountify-dev/blocks/discount_code/f60530e4-1a7f-4b03-a3e2-5b53c222553d",
           "disabled": true,
           "settings": {
             "wholesaleTitle": "Buy more, save more!"
           }
         },
         "discountify_tiered_spend_TJqwUC": {
-          "type": "shopify://apps/discountify/blocks/tiered_spend/f60530e4-1a7f-4b03-a3e2-5b53c222553d",
+          "type": "shopify://apps/discountify-dev/blocks/tiered_spend/f60530e4-1a7f-4b03-a3e2-5b53c222553d",
           "disabled": true,
           "settings": {}
         },
@@ -98,7 +98,6 @@
         "share",
         "ai_product_bundle_builder_custom_bundle_9jf99F"
       ],
-      "disabled": true,
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
@@ -226,9 +225,11 @@
           "settings": {
             "margin_top_bottom": 20,
             "margin_left_right": 20,
-            "text_color": "#FFFFFF",
+            "text_color": "#ffffff",
             "bg_color": "#855832",
-            "empty_progress_color": "#F9F6F0",
+            "empty_progress_color": "#f9f6f0",
+            "category_btn_color": "#09a35e",
+            "category_btn_radius": 20,
             "add_to_box_text": "Add to Box",
             "bundle_summary_text": "Bundle Summary",
             "price_text": "Price",
