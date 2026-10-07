@@ -59,6 +59,10 @@
             "wholesaleTitle": "Buy more, save more!"
           }
         },
+        "discountify_dev_wholesale_request_NEwaAj": {
+          "type": "shopify://apps/discountify-dev/blocks/wholesale_request/f60530e4-1a7f-4b03-a3e2-5b53c222553d",
+          "settings": {}
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -76,6 +80,7 @@
         "quantity_selector",
         "buy_buttons",
         "discountify_discount_code_A46iWG",
+        "discountify_dev_wholesale_request_NEwaAj",
         "share"
       ],
       "settings": {
@@ -157,27 +162,11 @@
         "ai_gen_block_35cb162_eewfBb"
       ],
       "settings": {}
-    },
-    "17828108533998bfc8": {
-      "type": "apps",
-      "blocks": {
-        "faq_expert_page_faq_Q9de4r": {
-          "type": "shopify://apps/faq-expert/blocks/page_faq/0bdfce9a-7a06-4682-aff6-90ae73b63994",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "faq_expert_page_faq_Q9de4r"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "177875177328402db5",
-    "17828108533998bfc8"
+    "177875177328402db5"
   ]
 }
