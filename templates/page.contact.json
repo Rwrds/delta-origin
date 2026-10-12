@@ -29,13 +29,26 @@
     "17828123181e9719e6": {
       "type": "apps",
       "blocks": {
-        "faq_expert_dev_page_faq_DMNyzT": {
-          "type": "shopify://apps/faq-expert-dev/blocks/page_faq/019f1758-53f1-7a45-81be-3b976d04cd43",
-          "settings": {}
+        "bundle_dev_mix_and_match_tnG9MC": {
+          "type": "shopify://apps/bundle-dev/blocks/mix_and_match/019fb33c-f1bb-748f-913b-431298b097dc",
+          "settings": {
+            "bundle_product": "mix-match-bundle-1",
+            "margin_top_bottom": 20,
+            "margin_left_right": 20,
+            "text_color": "#FFFFFF",
+            "bg_color": "#09A35E",
+            "empty_progress_color": "#C4ECC5",
+            "category_btn_color": "#09A35E",
+            "category_btn_radius": 20,
+            "add_to_box_text": "Add to Box",
+            "bundle_summary_text": "Bundle Summary",
+            "price_text": "Price",
+            "add_to_cart_text": "Add to Cart"
+          }
         }
       },
       "block_order": [
-        "faq_expert_dev_page_faq_DMNyzT"
+        "bundle_dev_mix_and_match_tnG9MC"
       ],
       "settings": {
         "include_margins": true
