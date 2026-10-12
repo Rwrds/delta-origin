@@ -131,11 +131,40 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "17918082926dfb7763": {
+      "type": "apps",
+      "blocks": {
+        "bundle_dev_mix_and_match_3F97eB": {
+          "type": "shopify://apps/bundle-dev/blocks/mix_and_match/019fb33c-f1bb-748f-913b-431298b097dc",
+          "settings": {
+            "margin_top_bottom": 20,
+            "margin_left_right": 20,
+            "text_color": "#FFFFFF",
+            "bg_color": "#09A35E",
+            "empty_progress_color": "#C4ECC5",
+            "category_btn_color": "#09A35E",
+            "category_btn_radius": 20,
+            "add_to_box_text": "Add to Box",
+            "bundle_summary_text": "Bundle Summary",
+            "price_text": "Price",
+            "add_to_cart_text": "Add to Cart",
+            "bundle_product": ""
+          }
+        }
+      },
+      "block_order": [
+        "bundle_dev_mix_and_match_3F97eB"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "17860148495793fdc1"
+    "17860148495793fdc1",
+    "17918082926dfb7763"
   ]
 }
