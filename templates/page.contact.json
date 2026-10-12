@@ -32,18 +32,18 @@
         "bundle_dev_mix_and_match_tnG9MC": {
           "type": "shopify://apps/bundle-dev/blocks/mix_and_match/019fb33c-f1bb-748f-913b-431298b097dc",
           "settings": {
-            "bundle_product": "",
             "margin_top_bottom": 20,
             "margin_left_right": 20,
-            "text_color": "#FFFFFF",
-            "bg_color": "#09A35E",
-            "empty_progress_color": "#C4ECC5",
-            "category_btn_color": "#09A35E",
+            "text_color": "#ffffff",
+            "bg_color": "#09a35e",
+            "empty_progress_color": "#c4ecc5",
+            "category_btn_color": "#09a35e",
             "category_btn_radius": 20,
             "add_to_box_text": "Add to Box",
             "bundle_summary_text": "Bundle Summary",
             "price_text": "Price",
-            "add_to_cart_text": "Add to Cart"
+            "add_to_cart_text": "Add to Cart",
+            "bundle_product": "mix-match-bundle-page"
           }
         }
       },
