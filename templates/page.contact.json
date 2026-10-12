@@ -32,7 +32,7 @@
         "bundle_dev_mix_and_match_tnG9MC": {
           "type": "shopify://apps/bundle-dev/blocks/mix_and_match/019fb33c-f1bb-748f-913b-431298b097dc",
           "settings": {
-            "bundle_product": "mix-match-bundle-page",
+            "bundle_product": "",
             "margin_top_bottom": 20,
             "margin_left_right": 20,
             "text_color": "#FFFFFF",
