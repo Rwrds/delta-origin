@@ -69,8 +69,8 @@
             "share_label": "Share"
           }
         },
-        "ai_product_bundle_builder_buy_x_get_y_YxfFVE": {
-          "type": "shopify://apps/ai-product-bundle-builder/blocks/buy_x_get_y/889077c6-270f-4a8f-99af-5c8dcf42ef52",
+        "bundle_dev_volume_bundle_hzxKra": {
+          "type": "shopify://apps/bundle-dev/blocks/volume_bundle/019fb33c-f1bb-748f-913b-431298b097dc",
           "settings": {}
         }
       },
@@ -86,7 +86,7 @@
         "discountify_discount_code_A46iWG",
         "discountify_dev_wholesale_request_NEwaAj",
         "share",
-        "ai_product_bundle_builder_buy_x_get_y_YxfFVE"
+        "bundle_dev_volume_bundle_hzxKra"
       ],
       "settings": {
         "enable_sticky_info": true,
