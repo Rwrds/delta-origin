@@ -69,8 +69,8 @@
             "share_label": "Share"
           }
         },
-        "bundle_agnesh_buy_x_get_y_JfU4pe": {
-          "type": "shopify://apps/bundle-agnesh/blocks/buy_x_get_y/c1e65add-ff74-4767-a342-fd2695335adf",
+        "ai_product_bundle_builder_buy_x_get_y_YxfFVE": {
+          "type": "shopify://apps/ai-product-bundle-builder/blocks/buy_x_get_y/889077c6-270f-4a8f-99af-5c8dcf42ef52",
           "settings": {}
         }
       },
@@ -86,7 +86,7 @@
         "discountify_discount_code_A46iWG",
         "discountify_dev_wholesale_request_NEwaAj",
         "share",
-        "bundle_agnesh_buy_x_get_y_JfU4pe"
+        "ai_product_bundle_builder_buy_x_get_y_YxfFVE"
       ],
       "settings": {
         "enable_sticky_info": true,
