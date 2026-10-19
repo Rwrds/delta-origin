@@ -59,7 +59,7 @@
             "share_label": "Share"
           }
         },
-        "bundle_dev_volume_bundle_hzxKra": {
+        "bundle_dev_volume_bundle_mXqAfM": {
           "type": "shopify://apps/bundle-dev/blocks/volume_bundle/019fb33c-f1bb-748f-913b-431298b097dc",
           "settings": {}
         }
@@ -74,7 +74,7 @@
         "quantity_selector",
         "buy_buttons",
         "share",
-        "bundle_dev_volume_bundle_hzxKra"
+        "bundle_dev_volume_bundle_mXqAfM"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -155,11 +155,18 @@
         "ai_gen_block_35cb162_eewfBb"
       ],
       "settings": {}
+    },
+    "1792402804618b4c06": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "177875177328402db5"
+    "177875177328402db5",
+    "1792402804618b4c06"
   ]
 }
