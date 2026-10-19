@@ -68,6 +68,10 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "bundle_agnesh_buy_x_get_y_JfU4pe": {
+          "type": "shopify://apps/bundle-agnesh/blocks/buy_x_get_y/c1e65add-ff74-4767-a342-fd2695335adf",
+          "settings": {}
         }
       },
       "block_order": [
@@ -81,7 +85,8 @@
         "buy_buttons",
         "discountify_discount_code_A46iWG",
         "discountify_dev_wholesale_request_NEwaAj",
-        "share"
+        "share",
+        "bundle_agnesh_buy_x_get_y_JfU4pe"
       ],
       "settings": {
         "enable_sticky_info": true,
