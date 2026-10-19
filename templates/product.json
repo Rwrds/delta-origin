@@ -59,8 +59,8 @@
             "share_label": "Share"
           }
         },
-        "bundle_dev_volume_bundle_mXqAfM": {
-          "type": "shopify://apps/bundle-dev/blocks/volume_bundle/019fb33c-f1bb-748f-913b-431298b097dc",
+        "bundle_dev_buy_together_7EMygf": {
+          "type": "shopify://apps/bundle-dev/blocks/buy_together/019fb33c-f1bb-748f-913b-431298b097dc",
           "settings": {}
         }
       },
@@ -74,7 +74,7 @@
         "quantity_selector",
         "buy_buttons",
         "share",
-        "bundle_dev_volume_bundle_mXqAfM"
+        "bundle_dev_buy_together_7EMygf"
       ],
       "settings": {
         "enable_sticky_info": true,
