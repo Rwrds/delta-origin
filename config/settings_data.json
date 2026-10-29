@@ -176,9 +176,9 @@
           "learn_more_link": "https://commission.europa.eu/law/law-topic/data-protection/legal-framework-eu-data-protection_en"
         }
       },
-      "5501563274568283670": {
-        "type": "shopify://apps/faq-expert-dev/blocks/faq_embed/019e29fa-4472-74fa-9a51-449d2e5d498f",
-        "disabled": true,
+      "3337702674422697832": {
+        "type": "shopify://apps/faq-expert-dev/blocks/faq_expert_embed/019f1758-53f1-7a45-81be-3b976d04cd43",
+        "disabled": false,
         "settings": {}
       }
     },
