@@ -142,17 +142,22 @@
     },
     "content_for_index": [],
     "blocks": {
-      "14326192065026276651": {
-        "type": "shopify://apps/google-tag-manager-ga4/blocks/gtm-embed/01995b81-4e6b-7b12-9195-febd92a96a6a",
+      "3337702674422697832": {
+        "type": "shopify://apps/faq-expert-dev/blocks/faq_expert_embed/019f1758-53f1-7a45-81be-3b976d04cd43",
         "disabled": false,
+        "settings": {}
+      },
+      "14326192065026276651": {
+        "type": "shopify://apps/anowave-google-tag-manager-ga4/blocks/gtm-embed/01995b81-4e6b-7b12-9195-febd92a96a6a",
+        "disabled": true,
         "settings": {
           "disable_snippet": false,
           "enable_preview": false
         }
       },
       "15233472713130465569": {
-        "type": "shopify://apps/google-tag-manager-ga4/blocks/consent-embed/01995b81-4e6b-7b12-9195-febd92a96a6a",
-        "disabled": false,
+        "type": "shopify://apps/anowave-google-tag-manager-ga4/blocks/consent-embed/01995b81-4e6b-7b12-9195-febd92a96a6a",
+        "disabled": true,
         "settings": {
           "scheme": "0",
           "content": "We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.",
@@ -169,17 +174,14 @@
           "contentTextCustomizeColor": "#ffffff",
           "contentCustomizeBackgroundColor": "#000000",
           "contentAcceptColor": "#ffffff",
-          "contentAcceptBackgroundColor": "#5BC300",
+          "contentAcceptBackgroundColor": "#5bc300",
+          "contentButtonTransparency": 95,
+          "contentOtherButtonTransparency": 95,
           "contentCheckboxColor": "#ffffff",
           "contentBorderRadius": 4,
           "contentButtonRadius": 4,
           "learn_more_link": "https://commission.europa.eu/law/law-topic/data-protection/legal-framework-eu-data-protection_en"
         }
-      },
-      "3337702674422697832": {
-        "type": "shopify://apps/faq-expert-dev/blocks/faq_expert_embed/019f1758-53f1-7a45-81be-3b976d04cd43",
-        "disabled": false,
-        "settings": {}
       }
     },
     "color_schemes": {
