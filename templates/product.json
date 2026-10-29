@@ -58,6 +58,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "custom_liquid_mFtAkF": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id=\"faqExpertProductEmbed\"></div>"
+          }
         }
       },
       "block_order": [
@@ -69,7 +75,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "share"
+        "share",
+        "custom_liquid_mFtAkF"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -136,7 +143,7 @@
             "tab_2_metafield": "",
             "tab_3_enabled": true,
             "tab_3_title": "FAQ",
-            "tab_3_content": "<div id=\"faqExpertProductEmbed\"></div>",
+            "tab_3_content": "",
             "tab_3_metafield": "",
             "tab_4_enabled": false,
             "tab_4_title": "Reviews",
