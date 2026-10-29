@@ -142,11 +142,6 @@
     },
     "content_for_index": [],
     "blocks": {
-      "3337702674422697832": {
-        "type": "shopify://apps/faq-expert-dev/blocks/faq_expert_embed/019f1758-53f1-7a45-81be-3b976d04cd43",
-        "disabled": false,
-        "settings": {}
-      },
       "14326192065026276651": {
         "type": "shopify://apps/anowave-google-tag-manager-ga4/blocks/gtm-embed/01995b81-4e6b-7b12-9195-febd92a96a6a",
         "disabled": true,
@@ -182,6 +177,11 @@
           "contentButtonRadius": 4,
           "learn_more_link": "https://commission.europa.eu/law/law-topic/data-protection/legal-framework-eu-data-protection_en"
         }
+      },
+      "3337702674422697832": {
+        "type": "shopify://apps/faq-expert-dev/blocks/faq_expert_embed/019f1758-53f1-7a45-81be-3b976d04cd43",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
