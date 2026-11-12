@@ -96,6 +96,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -112,54 +113,17 @@
         "padding_bottom": 28
       }
     },
-    "177875177328402db5": {
-      "type": "_blocks",
+    "1792402804618b4c06": {
+      "type": "apps",
       "blocks": {
-        "ai_gen_block_35cb162_eewfBb": {
-          "type": "ai_gen_block_35cb162",
-          "settings": {
-            "desktop_width_percent": 55,
-            "background_color": "rgba(0,0,0,0)",
-            "container_padding": 24,
-            "border_radius": 0,
-            "tab_text_color": "#666666",
-            "tab_active_color": "#11151c",
-            "tab_border_color": "#e0e0e0",
-            "tab_border_thickness": 1,
-            "active_indicator_height": 3,
-            "tab_font_size": 16,
-            "tab_padding": 16,
-            "tab_gap": 16,
-            "content_text_color": "#11151c",
-            "content_font_size": 14,
-            "content_spacing": 20,
-            "tab_1_enabled": true,
-            "tab_1_title": "Description",
-            "tab_1_content": "",
-            "tab_1_metafield": "",
-            "tab_2_enabled": true,
-            "tab_2_title": "Specifications",
-            "tab_2_content": "",
-            "tab_2_metafield": "",
-            "tab_3_enabled": true,
-            "tab_3_title": "FAQ",
-            "tab_3_content": "",
-            "tab_3_metafield": "",
-            "tab_4_enabled": false,
-            "tab_4_title": "Reviews",
-            "tab_4_content": "",
-            "tab_4_metafield": ""
-          },
-          "blocks": {}
+        "faq_expert_dev_faq_expert_pmwgTJ": {
+          "type": "shopify://apps/faq-expert-dev/blocks/faq_expert/019f1758-53f1-7a45-81be-3b976d04cd43",
+          "settings": {}
         }
       },
       "block_order": [
-        "ai_gen_block_35cb162_eewfBb"
+        "faq_expert_dev_faq_expert_pmwgTJ"
       ],
-      "settings": {}
-    },
-    "1792402804618b4c06": {
-      "type": "apps",
       "settings": {
         "include_margins": true
       }
@@ -168,7 +132,6 @@
   "order": [
     "main",
     "related-products",
-    "177875177328402db5",
     "1792402804618b4c06"
   ]
 }
